@@ -1,0 +1,880 @@
+sub_commands/query_main.o: sub_commands/query_main.cc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/vector \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_algobase.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/c++config.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs-64.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/cpu_defines.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/functexcept.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/exception_defines.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/cpp_type_traits.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/type_traits.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/numeric_traits.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_pair.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/move.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/concept_check.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/type_traits \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_iterator_base_types.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_iterator_base_funcs.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/debug/debug.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_iterator.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/allocator.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/c++allocator.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/new_allocator.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/new \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/exception \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/atomic_lockfree_defines.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/exception_ptr.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/nested_exception.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/memoryfwd.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_construct.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/alloc_traits.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/alloc_traits.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/ptr_traits.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_uninitialized.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_vector.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/initializer_list \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_bvector.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/functional_hash.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/hash_bytes.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/range_access.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/vector.tcc \
+ ./include/jellyfish/err.hpp \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/iostream \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ostream \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ios \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/iosfwd \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stringfwd.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/postypes.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stdarg.h \
+ /usr/include/bits/wchar.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /usr/include/xlocale.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/char_traits.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cwchar \
+ /usr/include/wchar.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstdint \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wordsize.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/localefwd.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/c++locale.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/clocale \
+ /usr/include/locale.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /usr/include/bits/locale.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cctype \
+ /usr/include/ctype.h /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/typesizes.h /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/wordsize.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/ios_base.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/atomicity.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/gthr.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /usr/include/time.h /usr/include/bits/sched.h /usr/include/time.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /usr/include/bits/time.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/wordsize.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/atomic_word.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/locale_classes.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/string \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/ostream_insert.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/cxxabi_forced.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_function.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/backward/binders.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/basic_string.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/string_conversions.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstdlib \
+ /usr/include/stdlib.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cwchar \
+ /usr/include/wchar.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstdio \
+ /usr/include/stdio.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /usr/include/wchar.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/basic_string.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/locale_classes.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/streambuf \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/streambuf.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/basic_ios.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/locale_facets.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cwctype \
+ /usr/include/wctype.h /usr/include/wchar.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cctype \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/ctype_base.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/streambuf_iterator.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/ctype_inline.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/locale_facets.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/basic_ios.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/ostream.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/istream \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/istream.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/iomanip \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/locale \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/locale_facets_nonio.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ctime \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/time_members.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/codecvt.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/locale_facets_nonio.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/sstream \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/sstream.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/stdexcept \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstdlib \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstring \
+ /usr/include/string.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cerrno \
+ /usr/include/errno.h ./include/jellyfish/thread_exec.hpp \
+ ./include/jellyfish/misc.hpp /usr/include/inttypes.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stdarg.h \
+ /usr/include/errno.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/utility \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_relops.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/iterator \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stream_iterator.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/algorithm \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_algo.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstdlib \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/algorithmfwd.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_heap.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_tempbuf.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/random \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cmath \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/math.h \
+ /tgac/software/production/intel_studio/2013.3.sp1/x86_64/composer_xe_2013_sp1.3.174/compiler/include/math.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ /usr/include/bits/wordsize.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstdio \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstdlib \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/limits \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/random.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/opt_random.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/x86intrin.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/ia32intrin.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/immintrin.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/wmmintrin.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/nmmintrin.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/smmintrin.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/tmmintrin.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/pmmintrin.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/emmintrin.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/xmmintrin.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/mmintrin.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/emmintrin.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/zmmintrin.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/adxintrin.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/random.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/numeric \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_numeric.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/functional \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/typeinfo \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/tuple \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/array \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/uses_allocator.h \
+ ./include/jellyfish/file_header.hpp ./include/jellyfish/generic_file_header.hpp \
+ ./config.h /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/wordsize.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/sys/utsname.h \
+ /usr/include/bits/utsname.h ./include/jellyfish/json.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/map \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_tree.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_map.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_multimap.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/deque \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_deque.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/deque.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/stack \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_stack.h \
+ ./include/jellyfish/rectangular_binary_matrix.hpp /usr/include/assert.h \
+ ./config.h ./include/jellyfish/stream_manager.hpp \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/fstream \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstdio \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/basic_file.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/c++io.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstdio \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/fstream.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/memory \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_raw_storage_iter.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/concurrence.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/unique_ptr.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/shared_ptr.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/shared_ptr_base.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/backward/auto_ptr.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/list \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_list.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/list.tcc \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/set \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_set.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_multiset.h \
+ ./include/jellyfish/locks_pthread.hpp /usr/include/sys/time.h \
+ /usr/include/bits/time.h ./config.h \
+ ./include/jellyfish/mer_overlap_sequence_parser.hpp \
+ ./include/jellyfish/cooperative_pool2.hpp /usr/include/assert.h \
+ ./include/jellyfish/circular_buffer.hpp ./include/jellyfish/compare_and_swap.hpp \
+ ./include/jellyfish/atomic_field.hpp ./include/jellyfish/divisor.hpp ./config.h \
+ ./include/jellyfish/cpp_array.hpp \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstddef \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ ./include/jellyfish/mer_iterator.hpp ./include/jellyfish/mer_dna.hpp ./config.h \
+ ./include/jellyfish/int128.hpp ./config.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstring \
+ ./include/jellyfish/mer_dna_bloom_counter.hpp \
+ ./include/jellyfish/bloom_counter2.hpp /usr/include/assert.h \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/math.h \
+ /tgac/software/production/intel_studio/2013.3.sp1/x86_64/composer_xe_2013_sp1.3.174/compiler/include/math.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include-fixed/limits.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/stdio_lim.h ./include/jellyfish/bloom_common.hpp \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/math.h \
+ /tgac/software/production/intel_studio/2013.3.sp1/x86_64/composer_xe_2013_sp1.3.174/compiler/include/math.h \
+ ./include/jellyfish/atomic_gcc.hpp ./include/jellyfish/mapped_file.hpp \
+ /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/wordsize.h /usr/include/bits/uio.h \
+ /usr/include/bits/stat.h /usr/include/sys/mman.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /usr/include/bits/mman.h /usr/include/errno.h \
+ ./include/jellyfish/allocators_mmap.hpp ./config.h \
+ ./include/jellyfish/bloom_filter.hpp ./jellyfish/fstream_default.hpp \
+ ./include/jellyfish/jellyfish.hpp ./include/jellyfish/hash_counter.hpp \
+ ./include/jellyfish/large_hash_array.hpp ./include/jellyfish/storage.hpp \
+ ./include/jellyfish/offsets_key_value.hpp /usr/include/signal.h \
+ /usr/include/bits/sigset.h /usr/include/bits/signum.h \
+ /usr/include/bits/siginfo.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/bits/wordsize.h \
+ /tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h \
+ /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h /usr/include/signal.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/sigthread.h \
+ ./include/jellyfish/simple_circular_buffer.hpp \
+ ./include/jellyfish/large_hash_iterator.hpp ./include/jellyfish/dumper.hpp \
+ ./include/jellyfish/time.hpp ./include/jellyfish/text_dumper.hpp \
+ ./include/jellyfish/sorted_dumper.hpp ./include/jellyfish/mer_heap.hpp \
+ ./include/jellyfish/token_ring.hpp ./include/jellyfish/binary_dumper.hpp \
+ /tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cmath \
+ /tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/math.h \
+ /tgac/software/production/intel_studio/2013.3.sp1/x86_64/composer_xe_2013_sp1.3.174/compiler/include/math.h \
+ ./sub_commands/query_main_cmdline.hpp /usr/include/getopt.h /usr/include/errno.h
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/vector:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_algobase.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/c++config.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/cpu_defines.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/functexcept.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/exception_defines.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/cpp_type_traits.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/type_traits.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/numeric_traits.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_pair.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/move.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/concept_check.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/type_traits:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_iterator_base_types.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_iterator_base_funcs.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/debug/debug.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_iterator.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/allocator.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/c++allocator.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/new_allocator.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/new:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/exception:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/atomic_lockfree_defines.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/exception_ptr.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/nested_exception.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/memoryfwd.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_construct.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/alloc_traits.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/alloc_traits.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/ptr_traits.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_uninitialized.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_vector.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/initializer_list:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_bvector.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/functional_hash.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/hash_bytes.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/range_access.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/vector.tcc:
+
+./include/jellyfish/err.hpp:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/iostream:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ostream:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ios:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/iosfwd:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stringfwd.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/postypes.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stdarg.h:
+
+/usr/include/bits/wchar.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/char_traits.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstdint:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/localefwd.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/c++locale.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/ios_base.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/atomicity.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/gthr.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/setjmp.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/atomic_word.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/locale_classes.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/string:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/ostream_insert.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/cxxabi_forced.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_function.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/backward/binders.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/basic_string.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/string_conversions.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/alloca.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstdio:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cerrno:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/basic_string.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/locale_classes.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/streambuf:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/streambuf.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/basic_ios.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/locale_facets.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cwctype:
+
+/usr/include/wctype.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/ctype_base.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/streambuf_iterator.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/ctype_inline.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/locale_facets.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/basic_ios.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/ostream.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/istream:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/istream.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/iomanip:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/locale:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/locale_facets_nonio.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ctime:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/time_members.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/messages_members.h:
+
+/usr/include/libintl.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/codecvt.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/locale_facets_nonio.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/sstream:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/sstream.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/stdexcept:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstring:
+
+/usr/include/string.h:
+
+./include/jellyfish/thread_exec.hpp:
+
+./include/jellyfish/misc.hpp:
+
+/usr/include/inttypes.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/utility:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_relops.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/iterator:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stream_iterator.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/algorithm:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_algo.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/algorithmfwd.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_heap.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_tempbuf.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/random:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cmath:
+
+/tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/math.h:
+
+/tgac/software/production/intel_studio/2013.3.sp1/x86_64/composer_xe_2013_sp1.3.174/compiler/include/math.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/limits:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/random.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/opt_random.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/x86intrin.h:
+
+/tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/ia32intrin.h:
+
+/tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/immintrin.h:
+
+/tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/wmmintrin.h:
+
+/tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/nmmintrin.h:
+
+/tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/smmintrin.h:
+
+/tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/tmmintrin.h:
+
+/tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/pmmintrin.h:
+
+/tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/emmintrin.h:
+
+/tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/xmmintrin.h:
+
+/tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/mmintrin.h:
+
+/tgac/software/production/bin/core/../..//intel_studio/2013.3.sp1/x86_64/include/zmmintrin.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include/adxintrin.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/random.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/numeric:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_numeric.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/functional:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/typeinfo:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/tuple:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/array:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/uses_allocator.h:
+
+./include/jellyfish/file_header.hpp:
+
+./include/jellyfish/generic_file_header.hpp:
+
+./config.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/sys/utsname.h:
+
+/usr/include/bits/utsname.h:
+
+./include/jellyfish/json.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/map:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_tree.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_map.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_multimap.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/deque:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_deque.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/deque.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/stack:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_stack.h:
+
+./include/jellyfish/rectangular_binary_matrix.hpp:
+
+/usr/include/assert.h:
+
+./include/jellyfish/stream_manager.hpp:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/fstream:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/basic_file.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/x86_64-unknown-linux-gnu/bits/c++io.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/fstream.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/memory:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_raw_storage_iter.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/ext/concurrence.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/unique_ptr.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/shared_ptr.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/shared_ptr_base.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/backward/auto_ptr.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/list:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_list.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/list.tcc:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/set:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_set.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/bits/stl_multiset.h:
+
+./include/jellyfish/locks_pthread.hpp:
+
+/usr/include/sys/time.h:
+
+./include/jellyfish/mer_overlap_sequence_parser.hpp:
+
+./include/jellyfish/cooperative_pool2.hpp:
+
+./include/jellyfish/circular_buffer.hpp:
+
+./include/jellyfish/compare_and_swap.hpp:
+
+./include/jellyfish/atomic_field.hpp:
+
+./include/jellyfish/divisor.hpp:
+
+./include/jellyfish/cpp_array.hpp:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/include/c++/4.8.4/cstddef:
+
+./include/jellyfish/mer_iterator.hpp:
+
+./include/jellyfish/mer_dna.hpp:
+
+./include/jellyfish/int128.hpp:
+
+./include/jellyfish/mer_dna_bloom_counter.hpp:
+
+./include/jellyfish/bloom_counter2.hpp:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include-fixed/limits.h:
+
+/tgac/software/testing/gcc/4.8.4/x86_64/lib/gcc/x86_64-unknown-linux-gnu/4.8.4/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+./include/jellyfish/bloom_common.hpp:
+
+./include/jellyfish/atomic_gcc.hpp:
+
+./include/jellyfish/mapped_file.hpp:
+
+/usr/include/sys/stat.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/sys/mman.h:
+
+/usr/include/bits/mman.h:
+
+./include/jellyfish/allocators_mmap.hpp:
+
+./include/jellyfish/bloom_filter.hpp:
+
+./jellyfish/fstream_default.hpp:
+
+./include/jellyfish/jellyfish.hpp:
+
+./include/jellyfish/hash_counter.hpp:
+
+./include/jellyfish/large_hash_array.hpp:
+
+./include/jellyfish/storage.hpp:
+
+./include/jellyfish/offsets_key_value.hpp:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+./include/jellyfish/simple_circular_buffer.hpp:
+
+./include/jellyfish/large_hash_iterator.hpp:
+
+./include/jellyfish/dumper.hpp:
+
+./include/jellyfish/time.hpp:
+
+./include/jellyfish/text_dumper.hpp:
+
+./include/jellyfish/sorted_dumper.hpp:
+
+./include/jellyfish/mer_heap.hpp:
+
+./include/jellyfish/token_ring.hpp:
+
+./include/jellyfish/binary_dumper.hpp:
+
+./sub_commands/query_main_cmdline.hpp:
